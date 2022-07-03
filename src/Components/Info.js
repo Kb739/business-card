@@ -3,10 +3,10 @@ import React from 'react';
 function Info() {
     return (
         <div id="info">
-            <div id="profile-img" />
+            <img id="profile-img" src={require('../Images/profile.png')} alt='profile' />
             <h1 className='info--name'>Kunal Bankoti</h1>
             <h3 className='info--job'>Web Developer</h3>
-            <p className='info--site'>kb7o7.website</p>
+            <p className='info--site'>kb739.github.io/folio</p>
             <div>
                 <button className="email">
                     <img src={require("../Images/Icon.png")} alt="msg" />
