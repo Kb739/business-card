@@ -10,16 +10,14 @@ body {
     background-color: #23252c;
     width: 550px;
     margin: auto;
-    border: 1px solid red;
+    padding:50px;
 }
 
 .app {
-    border: 1px solid rgb(178, 186, 211);
-    width: fit-content;
-    margin: 50px auto;
+    margin: auto;
+    width: 317px;
     border-radius: 10px 10px;
     overflow: hidden;
-    width: 317px;
     background-color: #1a1b21;
 }
 
@@ -93,5 +91,23 @@ body {
 .interests p {
     margin: 0;
     font-size: 10px;
-    color:#dcdcdc;
+    color: #dcdcdc;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #161619;
+    padding-block: 20px;
+}
+
+.social button {
+    padding: 0;
+    height: 25px;
+    border: none;
+}
+
+.social button img {
+    background-color: #161619;
 }
